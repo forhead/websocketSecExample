@@ -12,7 +12,7 @@ public class webSocketServer {
 		runServer();
 	}
 	public static void runServer() {
-        Server server = new Server("localhost", 8025, "/sec", sampleServerEndpoint.class);
+        Server server = new Server("localhost", 8080, "/sec", sampleServerEndpoint.class);
 
         try {
             server.start();
